@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/stars_wallpaper3"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:onClick="showDialogStarsOnClick"
+    tools:context=".Planets.Earth">
+
+
+    <ImageView
+        android:id="@+id/earth_button"
+        android:layout_width="244dp"
+        android:layout_height="219dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/earth_rotation3" />
+
+    <ImageView
+        android:id="@+id/moon_button"
+        android:layout_width="116dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="209dp"
+        android:src="@drawable/small_moon_button6" />
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp" />
+
+
+</RelativeLayout>

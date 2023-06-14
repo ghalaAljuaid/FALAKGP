@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Falaksign"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ComentsecActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".events"
+            android:exported="false" />
+        <activity
+            android:name=".aboutus"
+            android:exported="false" />
+        <activity
+            android:name=".settings"
+            android:exported="false" />
+        <activity
+            android:name=".viewpost"
+            android:exported="false" />
+        <activity
+            android:name=".editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".LightpollutionActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".addp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".chatbot"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Homepage"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".signup"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".welcomepage"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".posts"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity android:name=".viewprofile" />
+        <activity
+            android:name=".Planets._SwipeActivityClass"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Sun"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Pluto"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Neptune"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Uranus"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Saturn"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Venus"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Mercury"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Mars"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Jupiter"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+        <activity
+            android:name=".Planets.Earth"
+            android:theme="@style/Theme.Falaksign.SlidrActivityTheme" />
+    </application>
+
+</manifest>

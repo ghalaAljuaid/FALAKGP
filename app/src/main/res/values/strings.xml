@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">falaksign</string>
+    <string name="back">back</string>
+    <string name="chatbot">tochatbot</string>
+    <string name="send">send</string>
+    <string name="hint">أكتب رسالة</string>
+
+
+    <string name="earth">Earth: Our home planet has a dense metal core,\na thick viscous rock mantle, and a thin crust.
+                            \nIt\'s unique in the solar system for having humans\nand liquid water on its surface.</string>
+    <string name="moon">Moon: At 3470 km in diameter, the Moon has the\nlongest moon-to-planet ratio.
+        It\'s thought to\nhave formed when a small planet impacted\nEarth at a
+        grazing angle billions of years\nago. It\'s heavily crated, and has huge\nflood plains on it called mania.</string>
+    <string name="jupiter">Jupiter: A gas giant, it\'s the largest planet in\nour solar system. It has a dynamic\natmosphere,
+                        including belts, zones,\nand a gigantic red spot created by a\npersistent hurricane. Its interior
+                        is mostly\nmetallic hydrogen, and it has the fastest spin of all planets.</string>
+    <string name="mercury">Mercury: Orbiting the sun in just 89 days, it also has\nthe most elliptical orbit of any planet.
+                        \nIt spins very slowly, once every 2/3\nof its orbital period. Despite its\n
+                        surface reaching a blistering 430C,\nit still has water ice in permanently\nshadowed crates
+                        near its poles\nwhere the temperature stays below -170C</string>
+    <string name="sun">Sun: Our star is 2 octillion tons of hot hydrogen gas\nemitting 400 septillion of energy every
+                        \nsecond. The hottest part of the sun is its 15\nmillion C core, when it\'s
+                        been fusing hydrogen into helium for the past 4.6 billion years.\nDespite that
+                        it\'s only midlife aged!</string>
+    <string name="mars">Mars: Its iconic red color comes from its rusty\nrocks and dust. In the past Mars was once
+                        \nvery wet, with oceans, a thick atmosphere,\nand a warmer climate.\nBut its lack
+                        of a magnetic field meant no protection from\nthe solar wind, which eroded its atmosphere away.</string>
+    <string name="venus">Venus: The planet with the hottest surface temperature, at 460C it\'s hot enough to melt lead.
+                        Its air is almost entirely composed of carbon dioxide, with a thick layer of sulphuric clouds.
+                        Its rotational axis is flipped upside-down, which means the planet spins backwards.</string>
+    <string name="europa">Europa: Possessing a water ocean under its icy crust, some scientists have theorized it may be
+                            capable of supporting life. These lifeforms might be similar to those on Earth that live
+                            next to thermal vents.</string>
+    <string name="saturn">Saturn: A gas giant with a broad set of rings. It has a hexagonal cloud pattern on its north pole. It is
+                        the least dense of all the planets, even less than water!</string>
+    <string name="titan">Titan: Larger than Mercury, it\'s the only moon that has a dense atmosphere. It has methane
+                        cycle that is similar to Earth\'s water cycle, including rain and other weather events.</string>
+    <string name="uranus">Uranus: An ice giant with a small rocky core and a thick mantle of ammonia, water and methane. It
+                        has thirteen distinct rings.</string>
+    <string name="neptune">Neptune: An ice giant, with a similar composition to Uranus. It\'s the most dense gas giant planet
+                        and the only planet found by mathematical prediction rather than by empirical observation.</string>
+    <string name="pluto">Pluto: Discovered in 1930 and categorized as a planet until 2006 when it was re-categorized
+                        as a minor planet. Similar large icy bodies have been found beyond neptune, including
+                        Eris, Makemake, and Haumea.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

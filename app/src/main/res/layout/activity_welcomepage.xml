@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/empty"
+    tools:context=".welcomepage">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="240dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/falak_logo"
+        app:tint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/login2"
+        style="@android:style/Widget.Button"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/white_button"
+        android:text="إنشاء حساب"
+        android:textColor="#21207A"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/signuup2"
+        style="@android:style/Widget.Button"
+        android:layout_width="137dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="156dp"
+        android:background="@drawable/white_button"
+        android:text="تسجيل دخول"
+        android:textColor="#21207A"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:text="وجهتك الأولى نحو اكتشاف الفضاء"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.582" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
